@@ -74,7 +74,7 @@ h2, h3, h4, h5, h6 {
     background-color: #2E2F42;
 }
 
-.first-section > button {
+.first-section > .first-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
@@ -85,11 +85,11 @@ h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.first-section > button:hover {
+.first-section > .first-button:hover {
     background-color: #404BBF;
 }
 
-.first-section > button:focus {
+.first-section > .first-button:focus {
     background-color: #404BBF;
 }
 
@@ -113,6 +113,22 @@ h2, h3, h4, h5, h6 {
     color: #434455;
 }
 
+.qualities-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.qualities-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
 .team-section {
     background-color: #F4F4FD;
 }
@@ -123,6 +139,60 @@ h2, h3, h4, h5, h6 {
 
 .portfolio-section > li {
     background-color: #E7E9FC;
+}
+
+.team-section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-section-list-item {
+    background-color: #FFFFFF;
+
+}
+
+.team-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.portfolio-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
 }
 
 .footer {
@@ -143,7 +213,7 @@ h2, h3, h4, h5, h6 {
     color: #f4f4fd;
 }
 
-.footer-p {
+.footer-paragraph {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     line-height: 1.5;
